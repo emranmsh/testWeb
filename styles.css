@@ -1,0 +1,65 @@
+#sector1{
+    background-color: #1f2937;
+}
+
+.head{
+    display: flex;
+    justify-content: right;
+}
+.logo{
+    color: #E5E7EB;
+    padding-right: 65%;
+    padding-left: 5%;
+    font-size: 24px;
+    
+}
+
+#sector1 .links{
+    color: #f9faf8 ;
+    padding: 2% 1% 0% 2%;
+    font-size: 12px;
+}
+
+#sector1 .subsector1 .sec1head{
+    color: #E5E7EB;
+     
+}
+
+#sector1 .subsector1 .sec1para{
+    color: #f9faf8;
+}
+
+#sector1 .subsector1 .sec1but{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 35px 10px 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#sector1 .subsector1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+#sector1 .subsector1 .subsec11{
+    width: 20%;
+}
+#sector1 .subsector1 .subsec12{
+    width: 40%; 
+    background-color: gray;
+    color: #f9faf8;
+}
+
+
+#sector2 .head{ 
+    justify-content: center; 
+}
+
+#sector2 .imgcontainer{
+    display: flex; 
+    justify-content: space-between; 
+    padding-left: 10%;
+}
