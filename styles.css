@@ -53,13 +53,93 @@
     color: #f9faf8;
 }
 
-
+#sector2{
+    display: flex;
+    flex-direction: column;
+}
 #sector2 .head{ 
     justify-content: center; 
+    font-size: 48px;
 }
+
 
 #sector2 .imgcontainer{
     display: flex; 
     justify-content: space-between; 
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
+
+#sector2 .sec2para{
+    font-size: 24px;
+    width: 250px;
+    justify-content: center;
+    color: grey;
+}
+
+#sector3{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+#sector3 .sec3para{
+    width:50%;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+#sector3 .sec3auth{
+    padding-left: 65%; 
+    font-style: normal;
+    font-weight: bold;
+}
+
+#sector4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5% 15% 7% 15%;
+}
+
+#sector4 .subsec41{
+    display: flex;
+    background-color: #3882F6;
+    font-size: 24px;
+    padding: 1% 15% 1% 15%;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+}
+
+#sector4 .subsec41 .sec4head{
+    font-weight: bold;
+    
+    
+}
+
+#sector4 .subsec41 .subsec42{
+padding-right: 15%;
+}
+
+#sector4 .subsec41 .sec4but{
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5% 110% 5% 110%;
+}
+    
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 20px; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
